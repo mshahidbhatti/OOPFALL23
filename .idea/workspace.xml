@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="week 2">
-      <change afterPath="$PROJECT_DIR$/src/Week02_B/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week02_B/CircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week02_A/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week02_A/RectangleTest.java" afterDir="false" />
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="Week 2 clone examples">
+      <change afterPath="$PROJECT_DIR$/src/week02_A/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week02_A/ProductTets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CircleTest">
+  <component name="RunManager" selected="Application.ProductTets">
     <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week02_B.CircleTest" />
       <module name="OOPFALL23" />
@@ -81,12 +79,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week01.Driver" />
+    <configuration name="ProductTets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week02_A.ProductTets" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week01.*" />
+          <option name="PATTERN" value="week02_A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week02_A.RectangleTest" />
+      <module name="OOPFALL23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week02_A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductTets" />
+        <item itemvalue="Application.RectangleTest" />
         <item itemvalue="Application.CircleTest" />
         <item itemvalue="Application.ShapeTest" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +143,7 @@
       <workItem from="1694004215807" duration="597000" />
       <workItem from="1694243581871" duration="825000" />
       <workItem from="1694414596667" duration="7349000" />
-      <workItem from="1694511366184" duration="2972000" />
+      <workItem from="1694511366184" duration="7237000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -157,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694418471126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Week 2 clone examples">
+      <option name="closed" value="true" />
+      <created>1694515297276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694515297276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +198,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="second commit 0" />
     <MESSAGE value="week 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 2" />
+    <MESSAGE value="Week 2 clone examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 clone examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
