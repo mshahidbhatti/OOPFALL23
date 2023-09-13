@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="Week 2 clone examples">
-      <change afterPath="$PROJECT_DIR$/src/week02_A/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week02_A/ProductTets.java" afterDir="false" />
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="Week 2 clone examples section A">
+      <change afterPath="$PROJECT_DIR$/src/Week02_B/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week02_B/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Week02_B/test01" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,22 +53,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ProductTets">
+  <component name="RunManager" selected="Application.Shop">
     <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week02_B.CircleTest" />
-      <module name="OOPFALL23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week02_B.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week02_B.Demo" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week02_B.Shop" />
+      <module name="OOPFALL23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week02_B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shop" />
         <item itemvalue="Application.ProductTets" />
         <item itemvalue="Application.RectangleTest" />
         <item itemvalue="Application.CircleTest" />
         <item itemvalue="Application.ShapeTest" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,9 @@
       <workItem from="1694004215807" duration="597000" />
       <workItem from="1694243581871" duration="825000" />
       <workItem from="1694414596667" duration="7349000" />
-      <workItem from="1694511366184" duration="7237000" />
+      <workItem from="1694511366184" duration="7883000" />
+      <workItem from="1694603169123" duration="51000" />
+      <workItem from="1694603283425" duration="2826000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -177,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694515297276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Week 2 clone examples section A">
+      <option name="closed" value="true" />
+      <created>1694519688788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694519688788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +210,8 @@
     <MESSAGE value="second commit 0" />
     <MESSAGE value="week 2" />
     <MESSAGE value="Week 2 clone examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 2 clone examples" />
+    <MESSAGE value="Week 2 clone examples section A" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 2 clone examples section A" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
