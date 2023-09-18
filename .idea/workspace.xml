@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="Week 2 clone examples section A">
-      <change afterPath="$PROJECT_DIR$/src/Week02_B/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week02_B/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week02_B/test01" afterDir="false" />
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="static non static blocks">
+      <change afterPath="$PROJECT_DIR$/src/Week02_B/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_a/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_a/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_a/ProductTets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week02_B/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week02_B/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week02_B/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week02_B/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +56,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Shop">
-    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week02_B.CircleTest" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="week03_a" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.week03_a.ProductTets">
+    <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week03_a.Product" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week02_B.*" />
+          <option name="PATTERN" value="week03_a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week02_A.ShapeTest" />
-      <module name="OOPFALL23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week02_A.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week02_B.Shop" />
       <module name="OOPFALL23" />
@@ -119,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week03_a.ProductTets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week03_a.ProductTets" />
+      <module name="OOPFALL23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week03_a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week03_a.ProductTets" />
+        <item itemvalue="Application.Product" />
         <item itemvalue="Application.Shop" />
         <item itemvalue="Application.ProductTets" />
         <item itemvalue="Application.RectangleTest" />
-        <item itemvalue="Application.CircleTest" />
-        <item itemvalue="Application.ShapeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +154,9 @@
       <workItem from="1694414596667" duration="7349000" />
       <workItem from="1694511366184" duration="7883000" />
       <workItem from="1694603169123" duration="51000" />
-      <workItem from="1694603283425" duration="2826000" />
+      <workItem from="1694603283425" duration="3898000" />
+      <workItem from="1694771858276" duration="5187000" />
+      <workItem from="1695019015299" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -188,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694519688788</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="static non static blocks">
+      <option name="closed" value="true" />
+      <created>1694606612775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694606612775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +229,8 @@
     <MESSAGE value="week 2" />
     <MESSAGE value="Week 2 clone examples" />
     <MESSAGE value="Week 2 clone examples section A" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 2 clone examples section A" />
+    <MESSAGE value="static non static blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="static non static blocks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
