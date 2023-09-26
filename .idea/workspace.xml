@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="static non static blocks&#10;for section A&#10;uml added">
-      <change afterPath="$PROJECT_DIR$/src/week03_b/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week03_b/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week03_b/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week03_b/ReadFromKeyBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week03_b/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week03_b/uml description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week04_a/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week04_a/CardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week04_a/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4_b/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4_b/CardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week4_b/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="static non static blocks&#10;for section A&#10;uml added&#10;arrays">
+      <change afterPath="$PROJECT_DIR$/src/week04_a/cinema/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week04_a/cinema/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week04_a/cinema/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week04_a/cinema/UtilityClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week03_a/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03_a/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week03_a/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03_a/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week03_a/ProductTets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03_a/ProductTets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +63,7 @@
       <recent name="week03_a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week4_b.CardTest">
+  <component name="RunManager" selected="Application.week04_a.cinema.Demo">
     <configuration name="CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week04_a.CardTest" />
       <module name="OOPFALL23" />
@@ -115,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week03_a.ProductTets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week03_a.ProductTets" />
+    <configuration name="week04_a.cinema.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week04_a.cinema.Demo" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week03_a.*" />
+          <option name="PATTERN" value="week04_a.cinema.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week04_a.cinema.Demo" />
         <item itemvalue="Application.week4_b.CardTest" />
         <item itemvalue="Application.CardTest" />
         <item itemvalue="Application.ReadFromKeyBoard" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.week03_a.ProductTets" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +162,7 @@
       <workItem from="1695121397639" duration="5837000" />
       <workItem from="1695375752115" duration="765000" />
       <workItem from="1695376612438" duration="3209000" />
-      <workItem from="1695624237305" duration="9089000" />
+      <workItem from="1695624237305" duration="13918000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -240,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695033183422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="static non static blocks&#10;for section A&#10;uml added&#10;arrays">
+      <option name="closed" value="true" />
+      <created>1695725478076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695725478076</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +262,8 @@
     <MESSAGE value="static non static blocks" />
     <MESSAGE value="static non static blocks&#10;for section A" />
     <MESSAGE value="static non static blocks&#10;for section A&#10;uml added" />
-    <option name="LAST_COMMIT_MESSAGE" value="static non static blocks&#10;for section A&#10;uml added" />
+    <MESSAGE value="static non static blocks&#10;for section A&#10;uml added&#10;arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="static non static blocks&#10;for section A&#10;uml added&#10;arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
