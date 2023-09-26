@@ -11,6 +11,8 @@ public class ProductTets {
         System.out.println(p1.getMfcDate());
         Product p2=new Product("LCD",20000, 3,new Date(1,1,1));
 
+        Object o=new Date(1,1,1);
+//        Object o1=new Product()
 
         Product temp=p1.getLatest(p1,p2);
         System.out.println(temp);

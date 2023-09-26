@@ -97,4 +97,11 @@ Product(String name, double price, int quantity, Date mfcDate){
 //        else return p2;
         return p1.mfcDate==mfcDate.getRecentDate(p1.getMfcDate(),p2.getMfcDate())?p1:p2;
     }
+
+//    public boolean equals(Object o){
+//        Product p=(Product)o;
+//
+//        return p.id==this.id?true:false;
+//    }
+
 }

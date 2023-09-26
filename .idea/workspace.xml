@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="static non static blocks&#10;for section A">
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="static non static blocks&#10;for section A&#10;uml added">
+      <change afterPath="$PROJECT_DIR$/src/week03_b/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_b/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_b/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_b/ReadFromKeyBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_b/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week03_b/uml description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week04_a/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week04_a/CardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week04_a/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4_b/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4_b/CardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4_b/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week03_a/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03_a/Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week03_a/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03_a/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week03_a/ProductTets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week03_a/ProductTets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +56,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Musa/IdeaProjects/OOPFALL23/src/week03_a&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,17 +68,20 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Musa\IdeaProjects\OOPFALL23\src\week03_a" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="week03_a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week03_a.ProductTets">
-    <configuration name="Product" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week03_a.Product" />
+  <component name="RunManager" selected="Application.week4_b.CardTest">
+    <configuration name="CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week04_a.CardTest" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week03_a.*" />
+          <option name="PATTERN" value="week04_a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week02_A.ProductTets" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week03_b.Demo" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week02_A.*" />
+          <option name="PATTERN" value="week03_b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week02_A.RectangleTest" />
+    <configuration name="ReadFromKeyBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week03_b.ReadFromKeyBoard" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week02_A.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week02_B.Shop" />
-      <module name="OOPFALL23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week02_B.*" />
+          <option name="PATTERN" value="week03_b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week4_b.CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4_b.CardTest" />
+      <module name="OOPFALL23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4_b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week4_b.CardTest" />
+        <item itemvalue="Application.CardTest" />
+        <item itemvalue="Application.ReadFromKeyBoard" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.week03_a.ProductTets" />
-        <item itemvalue="Application.Product" />
-        <item itemvalue="Application.Shop" />
-        <item itemvalue="Application.ProductTets" />
-        <item itemvalue="Application.RectangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +170,11 @@
       <workItem from="1694603169123" duration="51000" />
       <workItem from="1694603283425" duration="3898000" />
       <workItem from="1694771858276" duration="5187000" />
-      <workItem from="1695019015299" duration="4991000" />
+      <workItem from="1695019015299" duration="6955000" />
+      <workItem from="1695121397639" duration="5837000" />
+      <workItem from="1695375752115" duration="765000" />
+      <workItem from="1695376612438" duration="3209000" />
+      <workItem from="1695624237305" duration="9089000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -208,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695023218585</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="static non static blocks&#10;for section A&#10;uml added">
+      <option name="closed" value="true" />
+      <created>1695033183422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695033183422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +265,8 @@
     <MESSAGE value="Week 2 clone examples section A" />
     <MESSAGE value="static non static blocks" />
     <MESSAGE value="static non static blocks&#10;for section A" />
-    <option name="LAST_COMMIT_MESSAGE" value="static non static blocks&#10;for section A" />
+    <MESSAGE value="static non static blocks&#10;for section A&#10;uml added" />
+    <option name="LAST_COMMIT_MESSAGE" value="static non static blocks&#10;for section A&#10;uml added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
