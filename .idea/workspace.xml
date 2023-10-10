@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="oop lab task">
-      <change afterPath="$PROJECT_DIR$/src/week06_a/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week06_a/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week06_a/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week06_a/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week06_a/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week06_a/oopcaseStudy.pdf" afterDir="false" />
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="oop case study for section A">
+      <change afterPath="$PROJECT_DIR$/src/week6_b/CountedProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week6_b/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week6_b/InventoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week6_b/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week6_b/Requirements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week6_b/WeightedProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Musa/IdeaProjects/OOPFALL23/src/week06_a",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Musa/IdeaProjects/OOPFALL23/src/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Musa/IdeaProjects/OOPFALL23/src/week06_a&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Musa/IdeaProjects/OOPFALL23/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Musa\IdeaProjects\OOPFALL23\src\week06_a" />
@@ -70,26 +70,13 @@
       <recent name="week03_a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week06_a.Demo">
+  <component name="RunManager" selected="Application.week6_b.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week05_b.Demo" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="week05_b.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week05_a.GameOfCards.Test" />
-      <module name="OOPFALL23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week05_a.GameOfCards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="week6_b.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week6_b.Demo" />
+      <module name="OOPFALL23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week6_b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.week6_b.Demo" />
         <item itemvalue="Application.week06_a.Demo" />
         <item itemvalue="Application.week05_b.inheritanceADeeperLook.Demo" />
         <item itemvalue="Application.week05_a.GameOfCards.inheritance.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,8 @@
       <workItem from="1696330913686" duration="4499000" />
       <workItem from="1696417984538" duration="3855000" />
       <workItem from="1696585291594" duration="1379000" />
-      <workItem from="1696834605756" duration="3553000" />
+      <workItem from="1696834605756" duration="3842000" />
+      <workItem from="1696932347983" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -294,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696585450773</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="oop case study for section A">
+      <option name="closed" value="true" />
+      <created>1696844513151</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696844513152</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +335,8 @@
     <MESSAGE value="Card example case study" />
     <MESSAGE value="oop lab assignment" />
     <MESSAGE value="oop lab task" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop lab task" />
+    <MESSAGE value="oop case study for section A" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop case study for section A" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
