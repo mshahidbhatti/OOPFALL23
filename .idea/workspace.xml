@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="oop case study for section A">
-      <change afterPath="$PROJECT_DIR$/src/week6_b/CountedProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6_b/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6_b/InventoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6_b/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6_b/Requirements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week6_b/WeightedProducts.java" afterDir="false" />
+    <list default="true" id="82427df8-df93-4e28-a83c-ba2318df508e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/week06_a/secondclass/CountedProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week06_a/secondclass/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week06_a/secondclass/InventoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week06_a/secondclass/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week06_a/secondclass/Requirements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week06_a/secondclass/WeightedProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/ATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/CustomExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/inhertanceExtended/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/inhertanceExtended/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/inhertanceExtended/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_a/inhertanceExtended/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_b/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_b/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_b/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week07_b/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,13 +86,13 @@
       <recent name="week03_a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week6_b.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week05_b.Demo" />
+  <component name="RunManager" selected="Application.ATest">
+    <configuration name="ATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week07_a.ATest" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week05_b.*" />
+          <option name="PATTERN" value="week07_a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week05_a.GameOfCards.inheritance.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week05_a.GameOfCards.inheritance.Demo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week07_a.Test" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week05_a.GameOfCards.inheritance.*" />
+          <option name="PATTERN" value="week07_a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week05_b.inheritanceADeeperLook.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week05_b.inheritanceADeeperLook.Demo" />
+    <configuration name="week07_b.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week07_b.Demo" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week05_b.inheritanceADeeperLook.*" />
+          <option name="PATTERN" value="week07_b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week06_a.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week06_a.Demo" />
+    <configuration name="week07_b.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week07_b.Test" />
       <module name="OOPFALL23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week06_a.*" />
+          <option name="PATTERN" value="week07_b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATest" />
+        <item itemvalue="Application.week07_b.Test" />
+        <item itemvalue="Application.week07_b.Demo" />
         <item itemvalue="Application.week6_b.Demo" />
-        <item itemvalue="Application.week06_a.Demo" />
-        <item itemvalue="Application.week05_b.inheritanceADeeperLook.Demo" />
-        <item itemvalue="Application.week05_a.GameOfCards.inheritance.Demo" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +197,10 @@
       <workItem from="1696417984538" duration="3855000" />
       <workItem from="1696585291594" duration="1379000" />
       <workItem from="1696834605756" duration="3842000" />
-      <workItem from="1696932347983" duration="2430000" />
+      <workItem from="1696932347983" duration="2760000" />
+      <workItem from="1696935666120" duration="3757000" />
+      <workItem from="1697438595089" duration="4025000" />
+      <workItem from="1697535642563" duration="7132000" />
     </task>
     <task id="LOCAL-00001" summary="second commit 0">
       <option name="closed" value="true" />
@@ -303,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696844513152</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="InventoryManagement">
+      <option name="closed" value="true" />
+      <created>1696934912989</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696934912989</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +363,8 @@
     <MESSAGE value="oop lab assignment" />
     <MESSAGE value="oop lab task" />
     <MESSAGE value="oop case study for section A" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop case study for section A" />
+    <MESSAGE value="InventoryManagement" />
+    <option name="LAST_COMMIT_MESSAGE" value="InventoryManagement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
